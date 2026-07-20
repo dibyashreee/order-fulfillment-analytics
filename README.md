@@ -28,27 +28,41 @@ Demand is already predictable; fulfillment is not. The clearest opportunity is c
 
 ---
 
+## Dashboard Preview
+
+**KPI Dashboard**
+
+![KPI Dashboard](dashboard/kpi_dashboard.png)
+
+**Forecast View**
+
+![Forecast Dashboard](dashboard/forecast_dashboard.png)
+
+---
+
 ## Repository Structure
-order-fulfillment-analytics/
-│
-├── README.md
-├── requirements.txt
-│
-├── data/
-│   └── DataCoSupplyChainDataset_sample.csv     #A 1,000-row sample of the full dataset
-│
-├── notebooks/
-│   └── supply_chain_analysis.ipynb             #Full analysis: cleaning, KPIs, forecasting
-│
-├── dashboard/
-│   └── SCM_KPI_Dashboard.xlsm                  #Interactive Excel dashboard with VBA
-│
-└── outputs/
-    ├── monthly_kpis_summary.csv
-    ├── monthly_problem_order_rate.csv
-    ├── forecast_output.csv
-    ├── mape_summary.csv
-    └── *.png                                   #All exported charts
+
+    order-fulfillment-analytics/
+    │
+    ├── README.md
+    │
+    ├── data/
+    │   └── DataCoSupplyChainDataset_sample.csv     A 1,000-row sample of the full dataset
+    │
+    ├── notebooks/
+    │   └── supply_chain_analysis.ipynb             Full analysis: cleaning, KPIs, forecasting
+    │
+    ├── dashboard/
+    │   └── SCM_KPI_Dashboard.xlsm                  Interactive Excel dashboard with VBA
+    │
+    └── outputs/
+        ├── monthly_kpis_summary.csv
+        ├── monthly_problem_order_rate.csv
+        ├── forecast_output.csv
+        ├── mape_summary.csv
+        └── *.png                                   All exported charts
+        
+---
 
 ## Dataset
 
